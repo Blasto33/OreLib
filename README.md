@@ -25,4 +25,4 @@ Sure! Send me a message on Discord and let's talk about what you want to do!
 
 Discord username: ***blasto*** 
 
-What I'm currently looking for is artists or just motivated people to create new textures for the ores. For now, I'm creating them myself and even though I like doing it, they are not up to the level of quality I expect. After all, the goal is the library to be stable enough so anyone can use it easily without hassle or friction.
+What I'm currently looking for is artists or just motivated people to create new textures for the ores. For now, I'm creating them myself and even though I like doing it, they are not up to the level of quality I'm aiming for. After all, the goal is the library to be stable enough so anyone can use it out-of-the-box without hassle or friction.
