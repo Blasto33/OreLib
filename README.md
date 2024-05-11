@@ -1,28 +1,28 @@
+## OreLib: An ore library for modders ⛏️
 
-Installation information
-=======
+Hi, Blasto here 👋
 
-This template repository can be directly cloned to get you started with a new
-mod. Simply create a new repository cloned from this one, by following the
-instructions at [github](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template).
+Welcome to my first mod ever: OreLib.
 
-Once you have your clone, simply open the repository in the IDE of your choice. The usual recommendation for an IDE is either IntelliJ IDEA or Eclipse.
+I initially decided to make this library to provide a stable foundation for modders. A lot of mods implement new ores to the game, sometimes the same ones multiple times. Back in the day, I was always annoyed to have 4 different ores in my inventory with the same name, such as Copper (before it was officially added to the game) or Tin Ore.
 
-> **Note**: For Eclipse, use tasks in `Launch Group` instead of ones founds in `Java Application`. A preparation task must run before launching the game. NeoGradle uses launch groups to do these subsequently.
+My goal is to make this mod used by a majority of modders, once it reaches a critical mass thanks to a vast ore catalog. I plan to add as many real and fictional ores as possible.
 
-If at any point you are missing libraries in your IDE, or you've run into problems you can
-run `gradlew --refresh-dependencies` to refresh the local cache. `gradlew clean` to reset everything 
-{this does not affect your code} and then start the process again.
+For now, OreLib should be as generic as possible so everyone is free to implement ores as they wish.
 
-Mapping Names:
-============
-By default, the MDK is configured to use the official mapping names from Mojang for methods and fields 
-in the Minecraft codebase. These names are covered by a specific license. All modders should be aware of this
-license, if you do not agree with it you can change your mapping names to other crowdsourced names in your 
-build.gradle. For the latest license text, refer to the mapping file itself, or the reference copy here:
-https://github.com/NeoForged/NeoForm/blob/main/Mojang.md
+## **⚙️ How will it work?**
+Once the core is completed, anyone will be able to open a pull request in order to add an ore to the lib.
 
-Additional Resources: 
-==========
-Community Documentation: https://docs.neoforged.net/  
-NeoForged Discord: https://discord.neoforged.net/
+It is planned to be as simple as possible: 
+- 📋 Register your ore, using the name (an ore can only show up once so no duplicates)
+- ➕ Add the textures you want to use, keeping the Vanilla atmosphere
+- 🔓 Open a pull request
+- 🤝 Create a new discussion so we can talk about it (optional but it's always nice to chat!) 
+- ✅ Your ore has been added to the library, ready to be implemented!
+
+## Can I join the project? 👉👈
+Sure! Send me a message on Discord and let's talk about what you want to do! 
+
+Discord username: ***blasto*** 
+
+What I'm currently looking for is artists or just motivated people to create new textures for the ores. For now, I'm creating them myself and even though I like doing it, they are not up to the level of quality I expect. After all, the goal is the library to be stable enough so anyone can use it easily without hassle or friction.
