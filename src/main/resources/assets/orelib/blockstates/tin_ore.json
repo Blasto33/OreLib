@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "orelib:block/tin_ore"
+    }
+  }
+}
